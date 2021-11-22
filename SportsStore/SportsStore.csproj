@@ -4,11 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="ViewsShared\" />
-    <Folder Include="ViewsHome\" />
-  </ItemGroup>
-
 </Project>

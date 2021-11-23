@@ -5,14 +5,14 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using SportsStore.Models.ViewModels;
 
-namespace SportsStore.Infrastracture
+namespace SportsStore.Infrastructure
 {
     [HtmlTargetElement("div", Attributes = "page-model")]
-    public class PageLingTagHelper : TagHelper
+    public class PageLinkTagHelper : TagHelper
     {
         private IUrlHelperFactory urlHelperFactory;
 
-        public PageLingTagHelper(IUrlHelperFactory helperFactory)
+        public PageLinkTagHelper(IUrlHelperFactory helperFactory)
         {
             this.urlHelperFactory = helperFactory;
         }
